@@ -1,0 +1,64 @@
+{
+  "homebrew_version": "4.2.19-131-g5e027bf",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "bin/ncursesw6-config",
+    "lib/pkgconfig/formw.pc",
+    "lib/pkgconfig/menuw.pc",
+    "lib/pkgconfig/ncurses++w.pc",
+    "lib/pkgconfig/ncursesw.pc",
+    "lib/pkgconfig/panelw.pc",
+    "share/man/man1/infocmp.1",
+    "share/man/man1/infotocap.1",
+    "share/man/man1/ncursesw6-config.1",
+    "share/man/man1/tabs.1",
+    "share/man/man1/tic.1",
+    "share/man/man1/toe.1",
+    "share/man/man1/tput.1",
+    "share/man/man1/tset.1",
+    "share/man/man3/ncurses.3ncurses",
+    "share/man/man5/term.5",
+    "share/man/man5/terminfo.5",
+    "share/man/man7/term.7",
+    "share/ncurses/test/Makefile"
+  ],
+  "time": 1725459343,
+  "source_modified_time": 1714243130,
+  "stdlib": "libstdcxx",
+  "compiler": "gcc-11",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "6.5",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/home/gitpod/.cache/Homebrew/api/formula.jws.json",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Linux",
+    "os_version": "Ubuntu 22.04.4",
+    "cpu_family": "zen3",
+    "glibc_version": "2.35",
+    "oldest_cpu_family": "core2"
+  }
+}

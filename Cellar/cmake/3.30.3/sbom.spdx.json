@@ -1,0 +1,204 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-cmake-3.30.3",
+  "creationInfo": {
+    "created": "2024-09-04T14:15:46Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.3.19"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/cmake-3.30.3.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-cmake-src",
+    "SPDXRef-Package-SPDXRef-ca-certificates-2024-07-02",
+    "SPDXRef-Package-SPDXRef-openssl@3-3.3.1",
+    "SPDXRef-Package-SPDXRef-ncurses-6.5",
+    "SPDXRef-Compiler",
+    "SPDXRef-Stdlib",
+    "SPDXRef-Bottle-cmake"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-cmake-src",
+      "name": "cmake",
+      "versionInfo": "3.30.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-08-29 19:37:11 UTC",
+      "licenseConcluded": "BSD-3-Clause",
+      "downloadLocation": "https://github.com/Kitware/CMake/releases/download/v3.30.3/cmake-3.30.3.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d5de15b6715091df7f5441007425264bdd477809f80333fdf95f846aaff88e4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-ca-certificates-2024-07-02",
+      "name": "ca-certificates",
+      "versionInfo": "2024-07-02",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MPL-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:73eb1a6bf9a5e12ee3f1acd295a4aaa28f08a9125a94342ddbf0aa65349c9db2",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "73eb1a6bf9a5e12ee3f1acd295a4aaa28f08a9125a94342ddbf0aa65349c9db2"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/ca-certificates@2024-07-02",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-openssl@3-3.3.1",
+      "name": "openssl@3",
+      "versionInfo": "3.3.1",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "Apache-2.0",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:63d76975c55730b4f46dd00ed325de913e8319b7fa6dae1e03eb11cc86514c7a",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "63d76975c55730b4f46dd00ed325de913e8319b7fa6dae1e03eb11cc86514c7a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/openssl@3@3.3.1",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-ncurses-6.5",
+      "name": "ncurses",
+      "versionInfo": "6.5",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "MIT",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:7c49662d0f319baec24475d38210b2f9c754b2ec1d21a4a3ff39ce81d8605f03",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7c49662d0f319baec24475d38210b2f9c754b2ec1d21a4a3ff39ce81d8605f03"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/ncurses@6.5",
+          "referenceType": "purl"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "gcc-11",
+      "versionInfo": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Stdlib",
+      "name": "libstdcxx",
+      "versionInfo": "libstdcxx",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-cmake",
+      "name": "cmake",
+      "versionInfo": "3.30.3",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-08-29 19:37:11 UTC",
+      "licenseConcluded": "BSD-3-Clause",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:44350707fa4af815fc981e274eb3b40eec87db45960daaf0c74a9d34a2ac5624",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/cmake@3.30.3",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "44350707fa4af815fc981e274eb3b40eec87db45960daaf0c74a9d34a2ac5624"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-ca-certificates-2024-07-02",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-cmake"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-openssl@3-3.3.1",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-cmake"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-SPDXRef-ncurses-6.5",
+      "relationshipType": "RUNTIME_DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-cmake"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-cmake",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-cmake-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-cmake-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Stdlib",
+      "relationshipType": "DEPENDENCY_OF",
+      "relatedSpdxElement": "SPDXRef-Bottle-cmake"
+    }
+  ]
+}

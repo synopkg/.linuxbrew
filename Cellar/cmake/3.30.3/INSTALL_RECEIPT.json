@@ -1,0 +1,66 @@
+{
+  "homebrew_version": "4.3.18-59-g67398c7",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+
+  ],
+  "time": 1725459346,
+  "source_modified_time": 1724960231,
+  "stdlib": "libstdcxx",
+  "compiler": "gcc-11",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "ca-certificates",
+      "version": "2024-07-02",
+      "revision": 0,
+      "pkg_version": "2024-07-02",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.3.1",
+      "revision": 0,
+      "pkg_version": "3.3.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "ncurses",
+      "version": "6.5",
+      "revision": 0,
+      "pkg_version": "6.5",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "3.30.3",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/home/gitpod/.cache/Homebrew/api/formula.jws.json",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Linux",
+    "os_version": "Ubuntu 22.04.4",
+    "cpu_family": "zen3",
+    "glibc_version": "2.35",
+    "oldest_cpu_family": "core2"
+  }
+}

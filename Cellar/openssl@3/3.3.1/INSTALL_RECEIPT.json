@@ -1,0 +1,55 @@
+{
+  "homebrew_version": "4.3.18-24-g41009cb",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "bin/c_rehash",
+    "lib/pkgconfig/libcrypto.pc",
+    "lib/pkgconfig/libssl.pc",
+    "lib/pkgconfig/openssl.pc"
+  ],
+  "time": 1725459338,
+  "source_modified_time": 1717505584,
+  "compiler": "gcc-11",
+  "aliases": [
+    "openssl",
+    "openssl@3.3"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "ca-certificates",
+      "version": "2024-07-02",
+      "revision": 0,
+      "pkg_version": "2024-07-02",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "3.3.1",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/home/gitpod/.cache/Homebrew/api/formula.jws.json",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Linux",
+    "os_version": "Ubuntu 22.04.4",
+    "cpu_family": "zen3",
+    "glibc_version": "2.35",
+    "oldest_cpu_family": "core2"
+  }
+}
